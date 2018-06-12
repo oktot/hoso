@@ -1,7 +1,7 @@
 ---
-title: 'Chân nến kim loại'
+title: 'Sản phẩm mới'
 layout: Releases
 path: '/releases/'
-meta: Chân nến kim loại
-keywords: Chân nến kim loại
+meta: Sản phẩm mới
+keywords: Sản phẩm mới
 ---
