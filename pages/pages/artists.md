@@ -1,7 +1,7 @@
 ---
-title: 'Chân nến poly'
+title: 'Sản phẩm bán chạy'
 layout: Artists
 path: '/artists/'
-meta: Danh mục Chân nến poly
-keywords: Chân nến poly
+meta: Danh mục Sản phẩm bán chạy
+keywords: Sản phẩm bán chạy
 ---
