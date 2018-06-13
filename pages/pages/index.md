@@ -44,5 +44,4 @@ Hãy liên hệ trực tiếp chúng tôi theo địa chỉ sau:
  
  
 Thân chào!
-Đội ngũ phát triển và hỗ trợ Khách Hàng
-Chân nến trang trí - Thương hiệu Chân nến cao cấp do Midorishop cung cấp và hân hạnh đồng hành cùng bạn.
+Đội ngũ phát triển và hỗ trợ Khách Hàng.
