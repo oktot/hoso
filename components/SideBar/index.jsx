@@ -12,7 +12,7 @@ class SideBar extends React.Component {
 		<div className='sidebar__sponsor'>Sponsor</div>
                 <div className='sidebar__title'>Important</div>
 		<div className='sidebar__link'>
-		<a href='/about/'>Phụ kiện trang trí Cưới</a>
+		<a href='/about/'>Giới thiệu về chúng tôi</a>
 		<a href='http://midorishop.com.vn'>Thương hiệu Midorishop</a>
 		<a href='/payments/'>How to pay? Thanh toán</a>
 		<a href='/help'>Hướng dẫn đặt - mua hàng</a>
