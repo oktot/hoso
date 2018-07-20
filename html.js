@@ -35,14 +35,15 @@ module.exports = React.createClass({
           <link rel="shortcut icon" href='/bakadono_favicon_32plus144@.png' />
           <link rel="apple-touch-icon" href='/bakadono_favicon_32plus144@.png' />
           <meta property="og:image" content='/bakadono-144@.png' />
-	  <meta name="google-site-verification" content="B0mHdLXrxdeDg7FFQY1Jb1KF0jNWRtnMRdi6cDsQH-c" />
+	  <meta name="google-site-verification" content="xSbFI47h96vVUZKcXFIg175tceDZ0N1JcHQH6NBc79s" />	
+	 
           <meta name="format-detection" content='telephone=no' />
           {head.meta.toComponent()}
         </head>
         <body>
           <div id="react-mount" style={{width:'100%'}} dangerouslySetInnerHTML={ {    __html: this.props.body} } />
           <script src={ prefixLink(`/bundle.js?t=${BUILD_TIME}`) } />
-          <script async src='https://www.googletagmanager.com/gtag/js?id=UA-120797776-1' />
+          <script async src='https://www.googletagmanager.com/gtag/js?id=UA-122667626-1' />
 		          { process.env.NODE_ENV === 'production' ? GoogleAnalyticsSetup : null }
         </body>
       </html>
@@ -68,7 +69,7 @@ function buildGoogleAnalyticsSetup() {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-120797776-1');
+  gtag('config', 'UA-122667626-1');
   `;
 
   return <script
