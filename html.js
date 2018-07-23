@@ -54,7 +54,7 @@ module.exports = React.createClass({
 function buildGoogleAdSense() {
   const js = `
   (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: 'ca-pub-4770678553103758',
+    google_ad_client: 'ca-pub-',
     enable_page_level_ads: true
   });
   `;
