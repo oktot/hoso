@@ -42,7 +42,7 @@ module.exports = React.createClass({
         <body>
           <div id="react-mount" style={{width:'100%'}} dangerouslySetInnerHTML={ {    __html: this.props.body} } />
           <script src={ prefixLink(`/bundle.js?t=${BUILD_TIME}`) } />
-          <script async src='https://www.googletagmanager.com/gtag/js?id=UA-133354821-1' />
+          <script async src='https://www.googletagmanager.com/gtag/js?id=UA--1' />
 		          { process.env.NODE_ENV === 'production' ? GoogleAnalyticsSetup : null }
         </body>
       </html>
@@ -53,7 +53,7 @@ module.exports = React.createClass({
 function buildGoogleAdSense() {
   const js = `
   (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: 'ca-pub-5369123605280127',
+    google_ad_client: 'ca-pub-',
     enable_page_level_ads: true
   });
   `;
@@ -68,7 +68,7 @@ function buildGoogleAnalyticsSetup() {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-133354821-1');
+  gtag('config', 'UA--1');
   `;
 
   return <script
